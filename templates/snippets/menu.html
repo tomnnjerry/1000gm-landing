@@ -1,0 +1,34 @@
+{% load static %}
+<div class="col-lg-7 d-none d-lg-block">
+    <div class="vl-main-menu text-center ">
+        <nav class="vl-mobile-menu-active">
+            <ul>
+                <li><a href="{% url 'home:home' %}">Home</a></li>
+                <li class="has-dropdown">
+                    <a href="{% url 'home:services' %}">Services <span><i class="fa-solid fa-angle-down d-lg-inline d-none"></i></span></a>
+                    <ul class="sub-menu">
+                        <li><a href="{% url 'home:services_detail' pk='test' %}">Business Credit Repair</a></li>
+                        <li><a href="#">Personal Credit Repair</a></li>
+                        <li><a href="#">Debt Negotiations</a></li>
+                        <li><a href="#">Debt Consolidations</a></li>
+                        <li><a href="#">Financial Counseling</a></li>
+                        <li><a href="#">Collections Assistance</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown">
+                    <a href="#">About <span><i class="fa-solid fa-angle-down d-lg-inline d-none"></i></span></a>
+                    <ul class="sub-menu">
+                        <li><a href="{% url 'home:about' %}">Who We Are</a></li>
+                        <li><a href="{% url 'home:credentials' %}">Our Credentials</a></li>
+                        
+                    </ul>
+                </li>
+        
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Contact</a></li>
+                <li class="hmm"><a href="https://accountprogress.com/CREDITBOOSTSOLUTIONS" target="_blank">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>

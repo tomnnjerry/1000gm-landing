@@ -1,0 +1,1577 @@
+
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+  {% load static %}
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="Awaiken">
+	<!-- Page Title -->
+    <title>1000GM</title>
+	<!-- Favicon Icon -->
+	<link rel="shortcut icon" type="image/x-icon" href="{% static 'images/favicon.png' %}">
+	<!-- Google Fonts Css-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="../css2?family=Fustat:wght@200..800&display=swap" rel="stylesheet">
+	<!-- Bootstrap Css -->
+	<link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" media="screen">
+	<!-- SlickNav Css -->
+	<link href="{% static 'css/slicknav.min.css' %}" rel="stylesheet">
+	<!-- Swiper Css -->
+	<link rel="stylesheet" href="{% static 'css/swiper-bundle.min.css' %}">
+	<!-- Font Awesome Icon Css-->
+	<link href="{% static 'css/all.css' %}" rel="stylesheet" media="screen">
+	<!-- Animated Css -->
+	<link href="{% static 'css/animate.css' %}" rel="stylesheet">
+    <!-- Magnific Popup Core Css File -->
+	<link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+	<!-- Mouse Cursor Css File -->
+	<link rel="stylesheet" href="{% static 'css/mousecursor.css' %}">
+	<!-- Main Custom Css -->
+	<link href="{% static 'css/custom.css' %}" rel="stylesheet" media="screen">
+</head>
+<body>
+
+    <!-- Preloader Start -->
+	<div class="preloader">
+		<div class="loading-container">
+			<div class="loading"></div>
+			<div id="loading-icon"><img src="{% static 'images/loader.svg' %}" alt=""></div>
+		</div>
+	</div>
+	<!-- Preloader End -->
+
+    <!-- Header Start -->
+	<header class="main-header">
+		<div class="header-sticky">
+			<nav class="navbar navbar-expand-lg">
+				<div class="container-fluid">
+					<!-- Logo Start -->
+					<a class="navbar-brand" href="index.html">
+						<img src="{% static 'images/logo.svg' %}" alt="Logo">
+					</a>
+					<!-- Logo End -->
+
+					<!-- Main Menu Start -->
+					<div class="collapse navbar-collapse main-menu">
+                        <div class="nav-menu-wrapper">
+                            <ul class="navbar-nav mr-auto" id="menu">
+                                <li class="nav-item submenu"><a class="nav-link" href="index.html">Home</a>
+                                    <ul>
+                                        <li class="nav-item"><a class="nav-link" href="index.html">Home - Image</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="index-video.html">Home - Video</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="index-slider.html">Home - Slider</a></li>
+                                    </ul>
+                                </li>                                
+                                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
+                                <li class="nav-item submenu"><a class="nav-link" href="#">Pages</a>
+                                    <ul>                                        
+                                        <li class="nav-item"><a class="nav-link" href="service-single.html">Service Details</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="blog-single.html">Blog Details</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="team.html">Our Team</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="team-single.html">Team Details</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing Plan</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="testimonial.html">Testimonial</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="image-gallery.html">Image Gallery</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="video-gallery.html">Video Gallery</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="faqs.html">FAQs</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="book-appointment.html">Book Appointment</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="404.html">404</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>                             
+                            </ul>
+                        </div>
+                        <!-- Header Btn Start -->
+                        <div class="header-btn d-inline-flex">
+                            <a href="tel:+789859664" class="btn-phone"><i class="fa-solid fa-phone-volume"></i>+01 789 859 664</a>
+                            <a href="contact.html" class="btn-default">get in touch</a>
+                        </div>
+                        <!-- Header Btn End -->
+					</div>
+					<!-- Main Menu End -->
+					<div class="navbar-toggle"></div>
+				</div>
+			</nav>
+			<div class="responsive-menu"></div>
+		</div>
+	</header>
+	<!-- Header End -->
+
+    <!-- Hero Section Start -->
+    <div class="hero bg-section parallaxie">
+      <div class="hero-section">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col-lg-6 col-md-9">
+                      <!-- Hero Content Start -->
+                      <div class="hero-content">
+                          <!-- Section Title Start -->
+                          <div class="section-title">
+                              <h3 class="wow fadeInUp">Welcome to 1000GM Chess Academy</h3>
+                              <h1 class="wow fadeInUp" data-wow-delay="0.2s">Celebrate Every Move & <span>Shape Future Champions</span></h1>
+                          </div>
+                          <!-- Section Title End -->
+  
+                          <!-- Hero Button Start -->
+                          <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
+                              <a href="contact.html" class="btn-default">get in touch</a>
+                              <a href="book-appointment.html" class="btn-default btn-highlighted">enroll now</a>
+                          </div>
+                          <!-- Hero Button End -->
+                      </div>
+                      <!-- Hero Content End -->
+                  </div>
+              </div>
+  
+              <div class="row">
+                  <div class="col-lg-12">
+                      <div class="export-coaching-box wow fadeInUp" data-wow-delay="0.6s">
+                          <!-- Export Coaching Step Start -->
+                          <div class="export-coaching-step">
+                              <div class="icon-box">
+                                  <img src="{% static 'images/icon-export-coaching-1.svg' %}" alt="">
+                              </div>
+                              <div class="export-coaching-step-content">
+                                  <p>Start from zero—no chess knowledge needed.</p>
+                              </div>
+                          </div>
+                          <!-- Export Coaching Step End -->
+  
+                          <!-- Export Coaching Step Start -->
+                          <div class="export-coaching-step">
+                              <div class="icon-box">
+                                  <img src="{% static 'images/icon-export-coaching-2.svg' %}" alt="">
+                              </div>
+                              <div class="export-coaching-step-content">
+                                  <p>Step-by-step learning from basics to brilliance.</p>
+                              </div>
+                          </div>
+                          <!-- Export Coaching Step End -->
+  
+                          <!-- Export Coaching Step Start -->
+                          <div class="export-coaching-step">
+                              <div class="icon-box">
+                                  <img src="{% static 'images/icon-export-coaching-3.svg' %}" alt="">
+                              </div>
+                              <div class="export-coaching-step-content">
+                                  <p>Fun, engaging sessions that spark curiosity.</p>
+                              </div>
+                          </div>
+                          <!-- Export Coaching Step End -->
+  
+                          <!-- Export Coaching Step Start -->
+                          <div class="export-coaching-step">
+                              <div class="icon-box">
+                                  <img src="{% static 'images/icon-export-coaching-4.svg' %}" alt="">
+                              </div>
+                              <div class="export-coaching-step-content">
+                                  <p>Graduation ceremony with certificate & merch.</p>
+                              </div>
+                          </div>
+                          <!-- Export Coaching Step End -->
+  
+                          <!-- Export Coaching Step Start -->
+                          <div class="export-coaching-step">
+                              <div class="icon-box">
+                                  <img src="{% static 'images/icon-export-coaching-5.svg' %}" alt="">
+                              </div>
+                              <div class="export-coaching-step-content">
+                                  <p>Social celebration makes learning stick for life.</p>
+                              </div>
+                          </div>
+                          <!-- Export Coaching Step End -->
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+    <!-- Hero Section End -->
+
+    <!-- About Us Section Start -->
+    <div class="about-us">
+      <div class="container">
+          <div class="row align-items-center">
+              <div class="col-lg-6">
+                  <!-- About Us Image Start -->
+                  <div class="about-us-images">
+                      <!-- About Us Img Start -->
+                      <div class="about-us-img-1">
+                          <figure class="image-anime">
+                              <img src="{% static 'images/about-us-img-1.jpg' %}" alt="">
+                          </figure>
+                      </div>
+                      <!-- About Us Img End -->
+  
+                      <!-- About Us Img Start -->
+                      <div class="about-us-img-2">
+                          <figure class="image-anime">
+                              <img src="{% static 'images/about-us-img-2.jpg' %}" alt="">
+                          </figure>                
+                      </div>
+                      <!-- About Us Img End -->
+                      
+                      <!-- About Experience Box Start -->
+                      <div class="about-experience-box">
+                          <div class="icon-box">
+                              <img src="{% static 'images/icon-company-experience.svg' %}" alt="">
+                          </div>
+  
+                          <div class="about-experience-content">
+                              <h3><span class="counter">10</span>+ cities served</h3>
+                          </div>
+                      </div>
+                      <!-- About Experience Box End -->
+  
+                      <!-- Company Review Start -->
+                      <div class="company-review">
+                          <h3>5000+ happy parents</h3>
+                      </div>
+                      <!-- Company Review End -->
+                  </div>
+                  <!-- About Us Image End -->
+              </div>
+  
+              <div class="col-lg-6">
+                  <!-- About Us Content Start -->
+                  <div class="about-us-content">
+                      <!-- Section Title Start -->
+                      <div class="section-title">
+                          <h3 class="wow fadeInUp">about us</h3>
+                          <h2 class="wow fadeInUp" data-wow-delay="0.2s">Making chess fun & <span>celebrated for kids</span></h2>
+                          <p class="wow fadeInUp" data-wow-delay="0.4s">At 1000GM Chess Academy, we help children build focus, discipline, and confidence through engaging chess programs — no experience needed. We celebrate every small win, culminating in a graduation ceremony that parents love to share.</p>
+                      </div>
+                      <!-- Section Title End -->
+  
+                      <!-- About Us List Start -->
+                      <div class="about-us-list wow fadeInUp" data-wow-delay="0.6s">
+                          <ul>
+                              <li>certificates & rewards that kids love</li>
+                              <li>coaching designed for all skill levels</li>
+                          </ul>
+                      </div>
+                      <!-- About Us List End -->
+  
+                      <!-- About Us Body Start -->
+                      <div class="about-us-body">
+                          <!-- About Company Client Start -->
+                          <div class="about-comapny-client wow fadeInUp" data-wow-delay="0.8s">
+                              <!-- Company Client Images Start -->
+                              <div class="company-client-images">
+                                  <div class="client-image">
+                                      <figure class="image-anime">
+                                          <img src="{% static 'images/satisfy-client-img-1.jpg' %}" alt="">
+                                      </figure>
+                                  </div>
+                                  <div class="client-image">
+                                      <figure class="image-anime">
+                                          <img src="{% static 'images/satisfy-client-img-2.jpg' %}" alt="">
+                                      </figure>
+                                  </div>
+                                  <div class="client-image">
+                                      <figure class="image-anime">
+                                          <img src="{% static 'images/satisfy-client-img-3.jpg' %}" alt="">
+                                      </figure>
+                                  </div>
+                                  <div class="client-image">
+                                      <figure class="image-anime">
+                                          <img src="{% static 'images/satisfy-client-img-4.jpg' %}" alt="">
+                                      </figure>
+                                  </div>
+                                  <div class="client-image">
+                                      <figure class="image-anime">
+                                          <img src="{% static 'images/satisfy-client-img-5.jpg' %}" alt="">
+                                      </figure>
+                                  </div>
+                              </div>
+                              <!-- Company Client Images End -->
+  
+                              <!-- Company Client Counter Start -->
+                              <div class="company-client-counter">
+                                  <p>Join our <span>5000</span>+ happy families</p>
+                              </div>
+                              <!-- Company Client Counter End -->
+                          </div>
+                          <!-- About Company Client End -->
+  
+                          <!-- About Company Result Start -->
+                          <div class="about-company-result wow fadeInUp" data-wow-delay="0.8s">
+                              <div class="icon-box">
+                                  <img src="{% static 'images/icon-company-result.svg' %}" alt="">
+                              </div>
+                              
+                              <div class="company-result-content">
+                                  <h3>Certified Success</h3>
+                                  <p>Graduation ceremonies that matter</p>
+                              </div>
+                          </div>
+                          <!-- About Company Result End -->
+                      </div>
+                      <!-- About Us Body End -->
+  
+                      <!-- About Us Footet Start -->
+                      <div class="about-us-footer wow fadeInUp" data-wow-delay="1s">
+                          <a href="contact.html" class="btn-default">get in touch</a>
+                      </div>
+                      <!-- About Us Footet End -->
+                  </div>
+                  <!-- About Us Content End -->
+              </div>
+          </div>
+      </div>
+  </div>
+  
+    <!-- About Us Section End -->
+
+    <!-- Our Service Start -->
+    <div class="our-service bg-section">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-5">
+                  <!-- Service Content Start -->
+                  <div class="service-content">
+                      <!-- Section Title Start -->
+                      <div class="section-title">
+                          <h3 class="wow fadeInUp">services</h3>
+                          <h2 class="wow fadeInUp" data-wow-delay="0.25s">Engaging programs for kids and <span>support for parents</span></h2>
+                          <p class="wow fadeInUp" data-wow-delay="0.5s">1000GM Chess Academy offers beginner-friendly chess coaching for children along with tools and resources for parents. Every step is fun, structured, and focused on confidence-building.</p>
+                      </div>
+                      <!-- Section Title End -->
+  
+                      <!-- Service Btn Start -->
+                      <div class="service-btn wow fadeInUp" data-wow-delay="0.75s">
+                          <a href="service.html" class="btn-default">view all programs</a>
+                      </div>
+                      <!-- Service Btn End -->
+                  </div>
+                  <!-- Service Content End -->
+              </div>
+  
+              <div class="col-lg-7">
+                  <!-- Service Item List Start -->
+                  <div class="service-item-list">
+                      <!-- Service Item Start -->
+                      <div class="service-item wow fadeInUp">
+                          <div class="icon-box">
+                              <img src="{% static 'images/icon-services-1.svg' %}" alt="">
+                          </div>
+  
+                          <div class="service-item-content">
+                              <h3>Beginner Chess Classes</h3>
+                              <p>Fun, no-pressure chess learning designed for kids as young as 4 years old.</p>
+                          </div>
+                      </div>
+                      <!-- Service Item Start -->
+  
+                      <!-- Service Item Start -->
+                      <div class="service-item wow fadeInUp" data-wow-delay="0.2s">
+                          <div class="icon-box">
+                              <img src="{% static 'images/icon-services-2.svg' %}" alt="">
+                          </div>
+  
+                          <div class="service-item-content">
+                              <h3>Progress Tracking</h3>
+                              <p>Structured milestones and report cards that help parents see progress clearly.</p>
+                          </div>
+                      </div>
+                      <!-- Service Item Start -->
+  
+                      <!-- Service Item Start -->
+                      <div class="service-item wow fadeInUp" data-wow-delay="0.4s">
+                          <div class="icon-box">
+                              <img src="{% static 'images/icon-services-3.svg' %}" alt="">
+                          </div>
+  
+                          <div class="service-item-content">
+                              <h3>Parent Support Tools</h3>
+                              <p>Access to guides, videos, and community to help you support your child’s learning.</p>
+                          </div>
+                      </div>
+                      <!-- Service Item Start -->
+  
+                      <!-- Service Item Start -->
+                      <div class="service-item wow fadeInUp" data-wow-delay="0.6s">
+                          <div class="icon-box">
+                              <img src="{% static 'images/icon-services-4.svg' %}" alt="">
+                          </div>
+  
+                          <div class="service-item-content">
+                              <h3>Monthly Tournaments</h3>
+                              <p>Fun, friendly events that build confidence and create real social connection.</p>
+                          </div>
+                      </div>
+                      <!-- Service Item Start -->
+  
+                      <!-- Service Item Start -->
+                      <div class="service-item wow fadeInUp" data-wow-delay="0.8s">
+                          <div class="icon-box">
+                              <img src="{% static 'images/icon-services-5.svg' %}" alt="">
+                          </div>
+  
+                          <div class="service-item-content">
+                              <h3>Graduation & Certification</h3>
+                              <p>Celebrate your child’s growth with a formal ceremony and prize-based recognition.</p>
+                          </div>
+                      </div>
+                      <!-- Service Item Start -->
+  
+                      <!-- Service Item Start -->
+                      <div class="service-item wow fadeInUp" data-wow-delay="1s">
+                          <div class="icon-box">
+                              <img src="{% static 'images/icon-services-6.svg' %}" alt="">
+                          </div>
+  
+                          <div class="service-item-content">
+                              <h3>Language-Friendly Support</h3>
+                              <p>Available in English, Spanish, Tagalog, and more to match your family’s needs.</p>
+                          </div>
+                      </div>
+                      <!-- Service Item Start -->
+                  </div>
+                  <!-- Service Item List End -->
+  
+                  <!-- Service Footer Start -->
+                  <div class="service-footer wow fadeInUp" data-wow-delay="0.25s">
+                      <p><span>free</span> Let's build confidence together. <a href="contact.html">get started now</a></p>
+                  </div>
+                  <!-- Service Footer Start -->
+              </div>
+          </div>
+      </div>
+  </div>
+  
+    <!-- Our Service End -->
+
+    <!-- Our Potential Start -->
+    <div class="our-potential">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-6">
+                  <!-- Our Potential Content Start -->
+                  <div class="our-potential-content">
+                      <!-- Section Title Start -->
+                      <div class="section-title">
+                          <h3 class="wow fadeInUp">who we are</h3>
+                          <h2 class="wow fadeInUp" data-wow-delay="0.25s">Building confident kids <span>through chess & celebration</span></h2>
+                          <p class="wow fadeInUp" data-wow-delay="0.5s">At 1000GM Chess Academy, we're more than coaches — we're mentors, cheerleaders, and community builders. We guide young learners from their very first move to moments of proud recognition, including certificates, tournaments, and social celebration.</p>
+                      </div>
+                      <!-- Section Title End -->
+  
+                      <!-- Our Potential Counter Start -->
+                      <div class="our-potential-counter">
+                          <!-- Potential Counter Item Start -->
+                          <div class="potential-counter-item">
+                              <div class="counter-circle">
+                                  <h2><span class="counter">98</span>%</h2>
+                              </div>
+                              <div class="potential-counter-content">
+                                  <h3>happy parents</h3>
+                              </div>
+                          </div>
+                          <!-- Potential Counter Item End -->
+  
+                          <!-- Potential Counter Item Start -->
+                          <div class="potential-counter-item">
+                              <div class="counter-circle">
+                                  <h2><span class="counter">10</span>+</h2>
+                              </div>
+                              <div class="potential-counter-content">
+                                  <h3>cities and counting</h3>
+                              </div>
+                          </div>
+                          <!-- Potential Counter Item End -->
+                      </div>
+                      <!-- Our Potential Counter End -->
+  
+                      <!-- Our Potential Body Start -->
+                      <div class="our-potential-body">
+                          <!-- Potential Body Content Start -->
+                          <div class="potential-body-content">
+                              <h3 class="wow fadeInUp">trusted educators & inspiring mentors</h3>
+                              <p class="wow fadeInUp" data-wow-delay="0.2s">Our coaches include Grandmasters, certified trainers, and passionate mentors who create a fun, structured environment for kids to grow.</p>
+                          </div>
+                          <!-- Potential Body Content End -->
+  
+                          <!-- Potential Body List Start -->
+                          <div class="potential-body-list wow fadeInUp" data-wow-delay="0.4s">
+                              <ul>
+                                  <li>focus on progress, not perfection</li>
+                                  <li>positive, praise-based learning approach</li>
+                              </ul>
+                          </div>
+                          <!-- Potential Body List End -->
+                      </div>
+                      <!-- Our Potential Body End -->
+                  </div>
+                  <!-- Our Potential Content End -->
+              </div>
+  
+              <div class="col-lg-6">
+                  <!-- Our Potential Image Start -->
+                  <div class="our-potential-img">
+                      <figure class="image-anime reveal">
+                          <img src="{% static 'images/our-potential-img.jpg' %}" alt="">
+                      </figure>
+                  </div>
+                  <!-- Our Potential Image End -->
+              </div>
+          </div>
+      </div>
+  </div>
+  
+    <!-- Our Potential End -->
+
+    <!-- Our Pricing Section Start -->
+    <div class="our-pricing bg-section">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-5">
+                  <!-- Pricing Content Start -->
+                  <div class="pricing-content">
+                      <!-- Section Title Start -->
+                      <div class="section-title">
+                          <h3 class="wow fadeInUp">pricing</h3>
+                          <h2 class="wow fadeInUp" data-wow-delay="0.25s">Chess programs <span>that fit every family</span></h2>
+                          <p class="wow fadeInUp" data-wow-delay="0.5s">We believe every child deserves the chance to grow through chess. Our pricing is designed to be simple, flexible, and accessible—so your child can join, learn, and celebrate with ease.</p>
+                      </div>
+                      <!-- Section Title End -->
+  
+                      <!-- Pricing Btn Start -->
+                      <div class="pricing-btn wow fadeInUp" data-wow-delay="0.75s">
+                          <a href="book-appointment.html" class="btn-default">join a class</a>
+                      </div>
+                      <!-- Pricing Btn End -->
+                  </div>
+                  <!-- Pricing Content End -->
+              </div>
+  
+              <div class="col-lg-7">
+                  <!-- Pricing Box List Start -->
+                  <div class="pricing-box-list">
+                      <!-- Pricing Box Start -->
+                      <div class="pricing-box wow fadeInUp">
+                          <!-- Pricing Box Content Start -->
+                          <div class="pricing-box-content">
+                              <!-- Pricing Title Start -->
+                              <div class="pricing-title">
+                                  <p>starter plan</p>
+                                  <h2><sup>$</sup>20<sub>/month</sub></h2>
+                              </div>
+                              <!-- Pricing Title End -->
+  
+                              <!-- Pricing Button Start -->
+                              <div class="pricing-btn">
+                                  <a href="#" class="btn-default">get started</a>
+                              </div>
+                              <!-- Pricing Button End -->
+                          </div>
+                          <!-- Pricing Box Content End -->
+  
+                          <!-- Pricing List Start -->
+                          <div class="pricing-list">
+                              <ul>
+                                  <li>1 live class/week</li>
+                                  <li>access to training portal</li>
+                                  <li>monthly progress report</li>
+                                  <li>parent resource pack</li>
+                                  <li>email support</li>
+                              </ul>
+                          </div>
+                          <!-- Pricing List End -->
+                      </div>
+                      <!-- Pricing Box End -->
+  
+                      <!-- Pricing Box Start -->
+                      <div class="pricing-box highlighted-box wow fadeInUp" data-wow-delay="0.2s">
+                          <!-- Pricing Box Content Start -->
+                          <div class="pricing-box-content">
+                              <!-- Pricing Title Start -->
+                              <div class="pricing-title">
+                                  <p>standard plan</p>
+                                  <h2><sup>$</sup>35<sub>/month</sub></h2>
+                              </div>
+                              <!-- Pricing Title End -->
+  
+                              <!-- Pricing Button Start -->
+                              <div class="pricing-btn">
+                                  <a href="#" class="btn-default btn-highlighted">most popular</a>
+                              </div>
+                              <!-- Pricing Button End -->
+                          </div>
+                          <!-- Pricing Box Content End -->
+  
+                          <!-- Pricing List Start -->
+                          <div class="pricing-list">
+                              <ul>
+                                  <li>2 live classes/week</li>
+                                  <li>monthly online tournament</li>
+                                  <li>certificate upon level completion</li>
+                                  <li>customized feedback for kids</li>
+                                  <li>access to parent community</li>
+                              </ul>
+                          </div>
+                          <!-- Pricing List End -->
+                      </div>
+                      <!-- Pricing Box End -->
+  
+                      <!-- Pricing Box Start -->
+                      <div class="pricing-box wow fadeInUp" data-wow-delay="0.4s">
+                          <!-- Pricing Box Content Start -->
+                          <div class="pricing-box-content">
+                              <!-- Pricing Title Start -->
+                              <div class="pricing-title">
+                                  <p>premium plan</p>
+                                  <h2><sup>$</sup>49<sub>/month</sub></h2>
+                              </div>
+                              <!-- Pricing Title End -->
+  
+                              <!-- Pricing Button Start -->
+                              <div class="pricing-btn">
+                                  <a href="#" class="btn-default">enroll now</a>
+                              </div>
+                              <!-- Pricing Button End -->
+                          </div>
+                          <!-- Pricing Box Content End -->
+  
+                          <!-- Pricing List Start -->
+                          <div class="pricing-list">
+                              <ul>
+                                  <li>3+ live classes/week</li>
+                                  <li>celebration ceremony invite</li>
+                                  <li>chess merch for top kids</li>
+                                  <li>1-on-1 review session</li>
+                                  <li>priority tournament access</li>
+                              </ul>
+                          </div>
+                          <!-- Pricing List End -->
+                      </div>
+                      <!-- Pricing Box End -->
+                  </div>
+                  <!-- Pricing Box List Start -->
+  
+                  <!-- Pricing Benifit List Start -->
+                  <div class="pricing-benefit-list wow fadeInUp" data-wow-delay="0.6s">
+                      <ul>
+                          <li><img src="{% static 'images/icon-pricing-benefit-1.svg' %}" alt="">First week free trial</li>
+                          <li><img src="{% static 'images/icon-pricing-benefit-2.svg' %}" alt="">No hidden fees</li>
+                          <li><img src="{% static 'images/icon-pricing-benefit-3.svg' %}" alt="">Cancel anytime, no hassle</li>
+                      </ul>
+                  </div>
+                  <!-- Pricing Benifit List End -->
+              </div>
+          </div>
+      </div>
+  </div>
+  
+    <!-- Our Pricing Section End -->
+
+    <!-- Our Expertise Section Start -->
+<div class="our-expertise">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <!-- Our Expertise Content Start -->
+                <div class="our-expertise-content">
+                    <!-- Section Title Start -->
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp">our expertise</h3>
+                        <h2 class="wow fadeInUp" data-wow-delay="0.25s">Trusted mentors and <span>chess education leaders</span></h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.5s">At 1000GM Chess Academy, our team includes certified coaches, grandmasters, and youth development experts. We guide children step-by-step, making every lesson fun, memorable, and meaningful.</p>
+                    </div>
+                    <!-- Section Title End -->
+
+                    <!-- Expertise Button Start -->
+                    <div class="expertise-btn wow fadeInUp" data-wow-delay="0.75s">
+                        <a href="contact.html" class="btn-default">contact now</a>
+                    </div>
+                    <!-- Expertise Button End -->
+                </div>
+                <!-- Our Expertise Content End -->
+            </div>
+
+            <div class="col-lg-6">
+                <div class="expertise-list">
+                    <!-- Expertise Item Start -->
+                    <div class="expertise-item wow fadeInUp">
+                        <div class="expertise-image">
+                            <figure class="image-anime">
+                                <img src="{% static 'images/expertise-image-1.jpg' %}" alt="">
+                            </figure>
+                        </div>
+                        <div class="expertise-content">
+                            <p>Kid-Centered</p>
+                        </div>
+                    </div>
+                    <!-- Expertise Item End -->
+
+                    <!-- Expertise Item Start -->
+                    <div class="expertise-item wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="expertise-image">
+                            <figure class="image-anime">
+                                <img src="{% static 'images/expertise-image-2.jpg' %}" alt="">
+                            </figure>
+                        </div>
+                        <div class="expertise-content">
+                            <p>Certified Coaches</p>
+                        </div>
+                    </div>
+                    <!-- Expertise Item End -->
+
+                    <!-- Expertise Item Start -->
+                    <div class="expertise-item wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="expertise-image">
+                            <figure class="image-anime">
+                                <img src="{% static 'images/expertise-image-3.jpg' %}" alt="">
+                            </figure>
+                        </div>
+                        <div class="expertise-content">
+                            <p>Curriculum-Based</p>
+                        </div>
+                    </div>
+                    <!-- Expertise Item End -->
+
+                    <!-- Expertise Item Start -->
+                    <div class="expertise-item wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="expertise-image">
+                            <figure class="image-anime">
+                                <img src="{% static 'images/expertise-image-4.jpg' %}" alt="">
+                            </figure>
+                        </div>
+                        <div class="expertise-content">
+                            <p>Celebration  Events<on/p>
+                        </div>
+                    </div>
+                    <!-- Expertise Item End -->
+
+                    <!-- Expertise Item Start -->
+                    <div class="expertise-item wow fadeInUp" data-wow-delay="1s">
+                        <div class="expertise-image">
+                            <figure class="image-anime">
+                                <img src="{% static 'images/expertise-image-5.jpg' %}" alt="">
+                            </figure>
+                        </div>
+                        <div class="expertise-content">
+                            <p>Progress Tracking for Parents</p>
+                        </div>
+                    </div>
+                    <!-- Expertise Item End -->
+
+                    <!-- Expertise Item Start -->
+                    <div class="expertise-item wow fadeInUp" data-wow-delay="1.2s">
+                        <div class="expertise-image">
+                            <figure class="image-anime">
+                                <img src="{% static 'images/expertise-image-6.jpg' %}" alt="">
+                            </figure>
+                        </div>
+                        <div class="expertise-content">
+                            <p>Live Tournament</p>
+                        </div>
+                    </div>
+                    <!-- Expertise Item End -->
+
+                    <!-- Expertise Item Start -->
+                    <div class="expertise-item wow fadeInUp" data-wow-delay="1.4s">
+                        <div class="expertise-image">
+                            <figure class="image-anime">
+                                <img src="{% static 'images/expertise-image-7.jpg' %}" alt="">
+                            </figure>
+                        </div>
+                        <div class="expertise-content">
+                            <p>Peer Learning & Community</p>
+                        </div>
+                    </div>
+                    <!-- Expertise Item End -->
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Our Expertise Section End -->
+
+    <!-- Intro Video Section Start -->
+    <div class="intro-video bg-section parallaxie">
+      <div class="container">
+          <div class="row align-items-center">
+              <div class="col-lg-6 col-md-8">
+                  <!-- Section Title Start -->
+                  <div class="section-title wow fadeInUp">
+                      <h2>Watch how kids grow with <span>every move</span></h2>
+                  </div>
+                  <!-- Section Title End -->
+              </div>
+  
+              <div class="col-lg-6 col-md-4">
+                  <!-- Intro Video Box Start -->
+                  <div class="intro-video-box">
+                      <!-- Video Play Button Start -->
+                      <div class="video-play-button">
+                          <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video" data-cursor-text="Play">
+                              <i class="fa-solid fa-play"></i>
+                          </a>
+                          <p>watch video</p>
+                      </div>
+                      <!-- Video Play Button End -->
+                  </div>
+                  <!-- Intro Video Box End -->
+              </div>
+  
+              <div class="col-lg-12">
+                  <!-- Intro Video List Start -->
+                  <div class="intro-video-list wow fadeInUp" data-wow-delay="0.25s">
+                      <ul>
+                          <li>Learn chess step-by-step from real coaches</li>
+                          <li>See how progress is celebrated with certificates</li>
+                          <li>Watch parents talk about their child’s transformation</li>
+                          <li>Get a glimpse of our fun tournaments and events</li>
+                      </ul>
+                  </div>
+                  <!-- Intro Video List End -->
+              </div>
+          </div>
+      </div>
+  </div>
+  
+    <!-- Intro Video Section End -->
+
+    <!-- How We Work Section Start -->
+    <div class="how-we-work">
+      <div class="container">
+          <div class="row section-row align-items-center">
+              <div class="col-lg-6">
+                  <!-- Section Title Start -->
+                  <div class="section-title">
+                      <h3 class="wow fadeInUp">how we work</h3>
+                      <h2 class="wow fadeInUp" data-wow-delay="0.25s">Step-by-step path to <span>confidence through chess</span></h2>
+                  </div>
+                  <!-- Section Title End -->
+              </div>
+  
+              <div class="col-lg-6">
+                  <!-- Section Button Start -->
+                  <div class="section-btn wow fadeInUp" data-wow-delay="0.5s">
+                      <a href="contact.html" class="btn-default">contact us</a>
+                  </div>
+                  <!-- Section Button End -->
+              </div>
+          </div>
+  
+          <div class="row">
+              <div class="col-lg-3 col-md-6">
+                  <!-- How Work Item Start -->
+                  <div class="how-work-item wow fadeInUp">
+                      <div class="icon-box">
+                          <img src="{% static 'images/icon-how-work-1.svg' %}" alt="">
+                      </div>
+  
+                      <div class="how-work-content">
+                          <h3><span>01.</span> enroll</h3>
+                          <p>Parents share info like zip code, school name, and learning goals for their child.</p>
+                      </div>
+                  </div>
+                  <!-- How Work Item End -->
+              </div>
+  
+              <div class="col-lg-3 col-md-6">
+                  <!-- How Work Item Start -->
+                  <div class="how-work-item wow fadeInUp" data-wow-delay="0.2s">
+                      <div class="icon-box">
+                          <img src="{% static 'images/icon-how-work-2.svg' %}" alt="">
+                      </div>
+  
+                      <div class="how-work-content">
+                          <h3><span>02.</span> start classes</h3>
+                          <p>Kids join beginner-friendly sessions — no chess knowledge needed to begin learning.</p>
+                      </div>
+                  </div>
+                  <!-- How Work Item End -->
+              </div>
+  
+              <div class="col-lg-3 col-md-6">
+                  <!-- How Work Item Start -->
+                  <div class="how-work-item wow fadeInUp" data-wow-delay="0.4s">
+                      <div class="icon-box">
+                          <img src="{% static 'images/icon-how-work-3.svg' %}" alt="">
+                      </div>
+  
+                      <div class="how-work-content">
+                          <h3><span>03.</span> track progress</h3>
+                          <p>Parents receive feedback, progress reports, and access to a support team anytime.</p>
+                      </div>
+                  </div>
+                  <!-- How Work Item End -->
+              </div>
+  
+              <div class="col-lg-3 col-md-6">
+                  <!-- How Work Item Start -->
+                  <div class="how-work-item wow fadeInUp" data-wow-delay="0.6s">
+                      <div class="icon-box">
+                          <img src="{% static 'images/icon-how-work-4.svg' %}" alt="">
+                      </div>
+  
+                      <div class="how-work-content">
+                          <h3><span>04.</span> graduate & celebrate</h3>
+                          <p>Kids earn certificates, get prizes, and are invited to join the next cohort or tournaments.</p>
+                      </div>
+                  </div>
+                  <!-- How Work Item End -->
+              </div>
+          </div>
+      </div>
+  
+      <!-- Scrolling Ticker Start -->
+      <div class="scrolling-ticker work-ticker">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <!-- Scrolling Ticker Box Start -->
+                      <div class="scrolling-ticker-box">
+                          <!-- Scrolling Ticker Content Start -->
+                          <div class="scrolling-content">
+                              <span><img src="{% static 'images/asterisk-icon.svg' %}" alt="">Chess for Beginners</span>
+                              <span><img src="{% static 'images/asterisk-icon.svg' %}" alt="">Tournaments & Events</span>
+                              <span><img src="{% static 'images/asterisk-icon.svg' %}" alt="">Celebration & Growth</span>
+                          </div>
+                          <!-- Scrolling Ticker Content End -->
+  
+                          <!-- Scrolling Ticker Content Start -->
+                          <div class="scrolling-content">
+                              <span><img src="{% static 'images/asterisk-icon.svg' %}" alt="">Chess for Beginners</span>
+                              <span><img src="{% static 'images/asterisk-icon.svg' %}" alt="">Tournaments & Events</span>
+                              <span><img src="{% static 'images/asterisk-icon.svg' %}" alt="">Celebration & Growth</span>
+                          </div>
+                          <!-- Scrolling Ticker Content End -->
+                      </div>
+                      <!-- Scrolling Ticker Box End -->
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- Scrolling Ticker End -->
+  </div>
+  
+    <!-- How We Work Section End -->
+  
+    <!-- Company Growth Section Start -->
+    <div class="company-growth bg-section">
+      <div class="container">
+          <div class="row align-items-center">
+              <div class="col-lg-5">
+                  <!-- Company Growth Image Start -->
+                  <div class="company-growth-image">
+                      <figure class="image-anime reveal">
+                          <img src="{% static 'images/company-growth-img.jpg' %}" alt="">
+                      </figure>
+                  </div>
+                  <!-- Company Growth Image End -->
+              </div>
+  
+              <div class="col-lg-7">
+                  <!-- Company Growth Content Start -->
+                  <div class="company-growth-content">
+                      <!-- Section Title Start -->
+                      <div class="section-title">
+                          <h3 class="wow fadeInUp">who we are</h3>
+                          <h2 class="wow fadeInUp" data-wow-delay="0.25s">Shaping future minds <span>one move at a time</span></h2>
+                          <p class="wow fadeInUp" data-wow-delay="0.5s">1000GM Chess Academy is on a mission to create the next generation of thinkers, problem solvers, and champions through accessible and celebratory chess education for children and families across the globe.</p>
+                      </div>
+                      <!-- Section Title End -->
+  
+                      <!-- Company Growth Button Start -->
+                      <div class="company-growth-btn wow fadeInUp" data-wow-delay="0.75s">
+                          <a href="contact.html" class="btn-default">get started</a>
+                      </div>
+                      <!-- Company Growth Button End -->
+                  </div>
+                  <!-- Company Growth Content End -->
+              </div>
+  
+              <div class="col-lg-12">
+                  <!-- Company Growth Box Start -->
+                  <div class="company-growth-box">
+                      <!-- Company Growth Item Start -->
+                      <div class="company-growth-item">
+                          <h2><span class="counter">9,857</span></h2>
+                          <h3>young learners impacted</h3>
+                          <p>Thousands of kids have joined our programs and taken their first confident step into the world of chess.</p>
+                      </div>
+                      <!-- Company Growth Item End -->
+  
+                      <!-- Company Growth Item Start -->
+                      <div class="company-growth-item">
+                          <h2><span class="counter">90</span>%</h2>
+                          <h3>parent satisfaction rate</h3>
+                          <p>Our programs are built to support families, with proven results in discipline and focus at home and in school.</p>
+                      </div>
+                      <!-- Company Growth Item End -->
+  
+                      <!-- Company Growth Item Start -->
+                      <div class="company-growth-item">
+                          <h2><span class="counter">60</span>%</h2>
+                          <h3>kids join next cohort</h3>
+                          <p>More than half of students continue their chess journey with us after completing their first level.</p>
+                      </div>
+                      <!-- Company Growth Item End -->
+  
+                      <!-- Company Growth Item Start -->
+                      <div class="company-growth-item">
+                          <h2><span class="counter">30</span>+</h2>
+                          <h3>global events hosted</h3>
+                          <p>From the U.S. to the Philippines, we host celebrations, tournaments, and workshops that leave a lasting impact.</p>
+                      </div>
+                      <!-- Company Growth Item End -->
+                  </div>
+                  <!-- Company Growth Box End -->
+              </div>
+          </div>
+      </div>
+  </div>
+  
+    <!-- Company Growth Section End -->
+
+    <!-- Our FAQs Section Start -->
+    <div class="our-faqs">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-6">
+                  <!-- Our FAQs Content Start -->
+                  <div class="our-faqs-content">
+                      <!-- Section Title Start -->
+                      <div class="section-title">
+                          <h3 class="wow fadeInUp">FAQ</h3>
+                          <h2 class="wow fadeInUp" data-wow-delay="0.25s">Your chess questions <span>answered clearly here</span></h2>
+                      </div>
+                      <!-- Section Title End -->
+  
+                      <!-- FAQs CTA Box Start -->
+                      <div class="faqs-cta-box wow fadeInUp" data-wow-delay="0.75s">
+                          <!-- Company Client Images Start -->
+                          <div class="company-client-images">
+                              <div class="client-image">
+                                  <figure class="image-anime">
+                                      <img src="{% static 'images/satisfy-client-img-1.jpg' %}" alt="">
+                                  </figure>
+                              </div>
+                              <div class="client-image">
+                                  <figure class="image-anime">
+                                      <img src="{% static 'images/satisfy-client-img-2.jpg' %}" alt="">
+                                  </figure>
+                              </div>
+                              <div class="client-image">
+                                  <figure class="image-anime">
+                                      <img src="{% static 'images/satisfy-client-img-3.jpg' %}" alt="">
+                                  </figure>
+                              </div>
+                              <div class="client-image">
+                                  <figure class="image-anime">
+                                      <img src="{% static 'images/satisfy-client-img-4.jpg' %}" alt="">
+                                  </figure>
+                              </div>
+                              <div class="client-image">
+                                  <figure class="image-anime">
+                                      <img src="{% static 'images/satisfy-client-img-5.jpg' %}" alt="">
+                                  </figure>
+                              </div>
+                          </div>
+                          <!-- Company Client Images End -->
+                          <div class="faqs-cta-content">
+                              <h3>Still have a question?</h3>
+                              <p>We’re happy to help! Reach out and we’ll guide you through the process.</p>
+                              <a href="tel:789859664" class="btn-phone"><i class="fa-solid fa-phone-volume"></i>+01 789 859 664</a>
+                          </div>
+                      </div>
+                      <!-- FAQs CTA Box End -->
+                  </div>
+                  <!-- Our FAQs Content End -->
+              </div>
+  
+              <div class="col-lg-6">
+                  <div class="our-faq-section">
+                      <!-- FAQ Accordion Start -->
+                      <div class="faq-accordion" id="faqaccordion">
+                          <!-- FAQ Item Start -->
+                          <div class="accordion-item wow fadeInUp">
+                              <h2 class="accordion-header" id="heading1">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                      Does my child need to know chess to start?
+                                  </button>
+                              </h2>
+                              <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#faqaccordion">
+                                  <div class="accordion-body">
+                                      <p>Nope! Our programs are beginner-friendly. We welcome kids with zero experience and build them up one step at a time.</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- FAQ Item End -->
+  
+                          <!-- FAQ Item Start -->
+                          <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
+                              <h2 class="accordion-header" id="heading2">
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                      What age group is this best for?
+                                  </button>
+                              </h2>
+                              <div id="collapse2" class="accordion-collapse collapse show" aria-labelledby="heading2" data-bs-parent="#faqaccordion">
+                                  <div class="accordion-body">
+                                      <p>Our classes are ideal for kids aged 5–14. We group students by age and skill level so they feel confident and supported.</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- FAQ Item End -->
+  
+                          <!-- FAQ Item Start -->
+                          <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
+                              <h2 class="accordion-header" id="heading3">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                      How do I track my child’s progress?
+                                  </button>
+                              </h2>
+                              <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#faqaccordion">
+                                  <div class="accordion-body">
+                                      <p>We provide regular feedback, milestone updates, and report cards. Parents also receive reminders for graduation, events, and cohort updates.</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- FAQ Item End -->    
+  
+                          <!-- FAQ Item Start -->
+                          <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
+                              <h2 class="accordion-header" id="heading4">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                      Is it only online or in-person too?
+                                  </button>
+                              </h2>
+                              <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#faqaccordion">
+                                  <div class="accordion-body">
+                                      <p>We offer both! Online classes are available across the U.S., and we host in-person events and tournaments in select cities.</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- FAQ Item End --> 
+  
+                          <!-- FAQ Item Start -->
+                          <div class="accordion-item wow fadeInUp" data-wow-delay="0.8s">
+                              <h2 class="accordion-header" id="heading5">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                      What happens after my child graduates?
+                                  </button>
+                              </h2>
+                              <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#faqaccordion">
+                                  <div class="accordion-body">
+                                      <p>Graduates receive a certificate, a merch gift, and a special invitation to the next learning level or tournament event. It’s our way of celebrating progress!</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- FAQ Item End --> 
+                      </div>
+                      <!-- FAQ Accordion End -->
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+    <!-- Our FAQs Section End -->
+
+    <!-- Our Testimonial Section Start -->
+    <div class="our-testimonial bg-section">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-4 col-md-8">
+                  <div class="our-testimonial-content">
+                      <!-- Section Title Start -->
+                      <div class="section-title">
+                          <h3 class="wow fadeInUp">testimonial</h3>
+                          <h2 class="wow fadeInUp" data-wow-delay="0.25s">Real success stories from our <span>academy families</span></h2>
+                      </div>
+                      <!-- Section Title End -->
+                  </div>                    
+              </div>
+  
+              <div class="col-lg-8">
+                  <!-- Testimonial Slider Start -->
+                  <div class="testimonial-slider">
+                      <div class="swiper">
+                          <div class="swiper-wrapper" data-cursor-text="Drag">
+                              <!-- Testimonial Slide Start -->
+                              <div class="swiper-slide">
+                                  <div class="testimonial-item">
+                                      <div class="testimonial-slider-image">
+                                          <figure class="image-anime">
+                                              <img src="{% static 'images/testimonial-img-1.jpg' %}" alt="">
+                                          </figure>
+                                      </div>
+  
+                                      <div class="testimonial-slider-content">
+                                          <div class="testimonial-header">            
+                                              <div class="testimonial-rating-company">
+                                                  <img src="{% static 'images/icon-testimonial-rating-4.svg' %}" alt="">
+                                              </div>
+                                              <div class="testimonial-quote">
+                                                  <img src="{% static 'images/testimonial-quote.svg' %}" alt="">
+                                              </div>
+                                          </div>
+                                          <div class="testimonial-rating">
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                          </div>                                        
+                                          <div class="testimonial-content">
+                                              <p>My son started with zero chess experience and now teaches *me* openings! The graduation event made him feel like a real champion. Thank you, 1000GM!</p>								
+                                          </div>
+                                          <div class="author-content">
+                                              <h3>Sophia Liu</h3>
+                                              <p>Parent, Los Angeles</p>
+                                          </div>
+                                      </div>                                        
+                                  </div>
+                              </div>
+                              <!-- Testimonial Slide End -->
+  
+                              <!-- Testimonial Slide Start -->
+                              <div class="swiper-slide">
+                                  <div class="testimonial-item">
+                                      <div class="testimonial-slider-image">
+                                          <figure class="image-anime">
+                                              <img src="{% static 'images/testimonial-img-2.jpg' %}" alt="">
+                                          </figure>
+                                      </div>
+  
+                                      <div class="testimonial-slider-content">
+                                          <div class="testimonial-header">            
+                                              <div class="testimonial-rating-company">
+                                                  <img src="{% static 'images/icon-testimonial-rating-4.svg' %}" alt="">
+                                              </div>
+                                              <div class="testimonial-quote">
+                                                  <img src="{% static 'images/testimonial-quote.svg' %}" alt="">
+                                              </div>
+                                          </div>
+                                          <div class="testimonial-rating">
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                          </div>                                        
+                                          <div class="testimonial-content">
+                                              <p>The coaches are so patient and fun. I used to be nervous playing, but now I love tournaments and even made a few friends at one!</p>								
+                                          </div>
+                                          <div class="author-content">
+                                              <h3>Mark T.</h3>
+                                              <p>Student, Chicago</p>
+                                          </div>
+                                      </div>                                        
+                                  </div>
+                              </div>
+                              <!-- Testimonial Slide End -->
+  
+                              <!-- Testimonial Slide Start -->
+                              <div class="swiper-slide">
+                                  <div class="testimonial-item">
+                                      <div class="testimonial-slider-image">
+                                          <figure class="image-anime">
+                                              <img src="{% static 'images/testimonial-img-3.jpg' %}" alt="">
+                                          </figure>
+                                      </div>
+  
+                                      <div class="testimonial-slider-content">
+                                          <div class="testimonial-header">            
+                                              <div class="testimonial-rating-company">
+                                                  <img src="{% static 'images/icon-testimonial-rating-4.svg' %}" alt="">
+                                              </div>
+                                              <div class="testimonial-quote">
+                                                  <img src="{% static 'images/testimonial-quote.svg' %}" alt="">
+                                              </div>
+                                          </div>
+                                          <div class="testimonial-rating">
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                          </div>                                        
+                                          <div class="testimonial-content">
+                                              <p>After every class, my daughter is excited to teach us what she learned. The structure, the care, the celebrations — it’s everything a parent could ask for.</p>								
+                                          </div>
+                                          <div class="author-content">
+                                              <h3>Rita A.</h3>
+                                              <p>Parent, Tampa</p>
+                                          </div>
+                                      </div>                                        
+                                  </div>
+                              </div>
+                              <!-- Testimonial Slide End -->
+                          </div>
+                          <div class="testimonial-btn">
+                              <div class="testimonial-button-prev"></div>
+                              <div class="testimonial-button-next"></div>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- Testimonial Slider End -->
+              </div>
+  
+             
+          </div>
+      </div>
+  </div>
+
+    <!-- Our Testimonial Section End -->
+
+    <!-- Our Blog Section Start -->
+    <div class="our-blog">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-4">
+                  <!-- Our Blog Content Start -->
+                  <div class="our-blog-content">
+                      <!-- Section Title Start -->
+                      <div class="section-title">
+                          <h3 class="wow fadeInUp">news/post</h3>
+                          <h2 class="wow fadeInUp" data-wow-delay="0.25s">Latest updates and chess <span>learning stories</span></h2>
+                      </div>
+                      <!-- Section Title End -->
+  
+                      <!-- Our Blog Button Start -->
+                      <div class="our-blog-btn wow fadeInUp" data-wow-delay="0.5s">
+                          <a href="contact.html" class="btn-default">contact us</a>
+                      </div>
+                      <!-- Our Blog Button End -->
+                  </div>
+                  <!-- Our Blog Content End -->                 
+              </div>
+  
+              <div class="col-lg-8">
+                  <!-- Blog Box Start -->
+                  <div class="blog-box">
+                      <!-- Blog Item Start -->
+                      <div class="blog-item wow fadeInUp">
+                          <!-- Blog Featured Image Start -->
+                          <div class="blog-featured-image">
+                              <a href="blog-single.html" class="image-anime" data-cursor-text="View">
+                                  <figure>
+                                      <img src="{% static 'images/post-1.jpg' %}" alt="">
+                                  </figure>
+                              </a>
+                          </div>
+                          <!-- Blog Featured Image End -->
+  
+                          <!-- Blog Item Body Start -->
+                          <div class="blog-item-body">
+                              <!-- Blog Item Content Start -->
+                              <div class="blog-item-content">
+                                  <h2><a href="blog-single.html">How Chess Builds Focus & Confidence in Young Minds</a></h2>
+                                  <p>Chess is more than a game—it shapes patience, memory, and critical thinking from the very first move.</p>
+                              </div>
+                              <!-- Blog Item Content End -->
+  
+                              <!-- Blog Item Button Start -->
+                              <div class="blog-item-btn">
+                                  <a href="blog-single.html" class="btn-default">read more</a>
+                              </div>
+                              <!-- Blog Item Button End -->
+                          </div>
+                          <!-- Blog Item Body End -->                        
+                      </div>
+                      <!-- Blog Item End -->
+  
+                      <!-- Blog Item Start -->
+                      <div class="blog-item wow fadeInUp" data-wow-delay="0.25s">
+                          <!-- Blog Featured Image Start -->
+                          <div class="blog-featured-image">
+                              <a href="blog-single.html" class="image-anime" data-cursor-text="View">
+                                  <figure>
+                                      <img src="{% static 'images/post-2.jpg' %}" alt="">
+                                  </figure>
+                              </a>
+                          </div>
+                          <!-- Blog Featured Image End -->
+  
+                          <!-- Blog Item Body Start -->
+                          <div class="blog-item-body">
+                              <!-- Blog Item Content Start -->
+                              <div class="blog-item-content">
+                                  <h2><a href="blog-single.html">Inside Our Certification Ceremony: A Celebration of Progress</a></h2>
+                                  <p>From graduation certificates to custom merch, here’s how we make every milestone unforgettable.</p>
+                              </div>
+                              <!-- Blog Item Content End -->
+  
+                              <!-- Blog Item Button Start -->
+                              <div class="blog-item-btn">
+                                  <a href="blog-single.html" class="btn-default">read more</a>
+                              </div>
+                              <!-- Blog Item Button End -->
+                          </div>
+                          <!-- Blog Item Body End -->                        
+                      </div>
+                      <!-- Blog Item End -->
+  
+                      <!-- Blog Item Start -->
+                      <div class="blog-item wow fadeInUp" data-wow-delay="0.5s">
+                          <!-- Blog Featured Image Start -->
+                          <div class="blog-featured-image">
+                              <a href="blog-single.html" class="image-anime" data-cursor-text="View">
+                                  <figure>
+                                      <img src="{% static 'images/post-3.jpg' %}" alt="">
+                                  </figure>
+                              </a>
+                          </div>
+                          <!-- Blog Featured Image End -->
+  
+                          <!-- Blog Item Body Start -->
+                          <div class="blog-item-body">
+                              <!-- Blog Item Content Start -->
+                              <div class="blog-item-content">
+                                  <h2><a href="blog-single.html">How We’re Bringing Chess to Schools Across the U.S.</a></h2>
+                                  <p>Learn how 1000GM is reaching classrooms nationwide—one zip code at a time—with our grassroots school program.</p>
+                              </div>
+                              <!-- Blog Item Content End -->
+  
+                              <!-- Blog Item Button Start -->
+                              <div class="blog-item-btn">
+                                  <a href="blog-single.html" class="btn-default">read more</a>
+                              </div>
+                              <!-- Blog Item Button End -->
+                          </div>
+                          <!-- Blog Item Body End -->                        
+                      </div>
+                      <!-- Blog Item End -->
+                  </div>
+                  <!-- Blog Box End -->
+              </div>
+          </div>
+      </div>
+  </div>
+  
+    <!-- Our Blog Section End -->
+
+    <!-- Footer Start -->
+    <footer class="main-footer bg-section">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-7 col-md-6">
+                  <!-- About Footer Start -->
+                  <div class="about-footer">
+                      <!-- Section Title Start -->
+                      <div class="section-title">
+                          <h2>We develop & create <span>successful future</span></h2>
+                      </div>
+                      <!-- Section Title End -->
+                  </div>
+                  <!-- About Footer End -->
+              </div>
+  
+              <div class="col-lg-3 col-md-3">
+                  <!-- Footer Contact Information Start -->
+                  <div class="footer-contact-info">
+                      <h3>address</h3>
+                      <ul>
+                          <li>Germany-785 15h Street, Office 478</li>
+                          <li>Berlin, De 81566</li>
+                      </ul>
+                  </div>
+                  <!-- Footer Contact Information End -->
+  
+                  <!-- Footer Social Link Start -->
+                  <div class="footer-social-links">
+                      <ul>
+                          <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                          <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                          <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                      </ul>
+                  </div>
+                  <!-- Footer Social Link End -->
+              </div>
+  
+              <div class="col-lg-2 col-md-3">
+                  <!-- Footer Contact Information Start -->
+                  <div class="footer-contact-info">
+                      <h3>say hello</h3>
+                      <ul>
+                          <li><a href="mailto:info@domain.com">info@domain.com</a></li>
+                          <li><span>+1 840 841 256</span></li>
+                      </ul>
+                  </div>
+                  <!-- Footer Contact Information End -->
+              </div>
+          </div>
+  
+          <!-- Footer Copyright Section Start -->
+          <div class="footer-copyright">
+              <div class="row align-items-center">
+                  <div class="col-md-6">
+                      <!-- Footer Menu Start -->
+                      <div class="footer-menu">
+                          <ul>
+                              <li><a href="index.html">home</a></li>
+                              <li><a href="about.html">about</a></li>
+                              <li><a href="service.html">services</a></li>
+                              <li><a href="contact.html">contact</a></li>
+                          </ul>
+                      </div>
+                      <!-- Footer Menu End -->
+                  </div>
+  
+                  <div class="col-md-6">
+                      <!-- Footer Copyright Start -->
+                      <div class="footer-copyright-text">
+                          <p>Copyright © 2024 All Rights Reserved.</p>
+                      </div>
+                      <!-- Footer Copyright End -->
+                  </div>
+              </div>
+          </div>
+          <!-- Footer Copyright Section End -->
+      </div>
+  </footer>
+  
+    <!-- Footer End -->
+
+    <!-- Jquery Library File -->
+    <script src="{% static 'js/jquery-3.7.1.min.js' %}"></script>
+    <!-- Bootstrap js file -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <!-- Validator js file -->
+    <script src="{% static 'js/validator.min.js' %}"></script>
+    <!-- SlickNav js file -->
+    <script src="{% static 'js/jquery.slicknav.js' %}"></script>
+    <!-- Swiper js file -->
+    <script src="{% static 'js/swiper-bundle.min.js' %}"></script>
+    <!-- Counter js file -->
+    <script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+    <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+    <!-- Magnific js file -->
+    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+    <!-- SmoothScroll -->
+    <script src="{% static 'js/SmoothScroll.js' %}"></script>
+    <!-- Parallax js -->
+    <script src="{% static 'js/parallaxie.js' %}"></script>
+    <!-- MagicCursor js file -->
+    <script src="{% static 'js/gsap.min.js' %}"></script>
+    <script src="{% static 'js/magiccursor.js' %}"></script>
+    <!-- Text Effect js file -->
+    <script src="{% static 'js/SplitText.js' %}"></script>
+    <script src="{% static 'js/ScrollTrigger.min.js' %}"></script>
+    <!-- YTPlayer js File -->
+    <script src="{% static 'js/jquery.mb.YTPlayer.min.js' %}"></script>
+    <!-- Wow js file -->
+    <script src="{% static 'js/wow.js' %}"></script>
+    <!-- Main Custom js file -->
+    <script src="{% static 'js/function.js' %}"></script>
+
+</body>
+</html>
